@@ -1,0 +1,35 @@
+# Terraform working directory
+.terraform/
+
+# Terraform state
+*.tfstate
+*.tfstate.*
+
+# Terraform variable files
+*.tfvars
+*.tfvars.json
+
+# Terraform plans
+*.tfplan
+plan.out
+
+# Crash logs
+crash.log
+crash.*.log
+
+# Sensitive SSH private keys
+*.pem
+*.key
+id_rsa
+
+# Local overrides
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Backup files
+*.backup
+
+terraform-ec2-key
+terraform-ec2-key.pub
