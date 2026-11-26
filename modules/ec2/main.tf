@@ -21,12 +21,8 @@ resource "aws_instance" "web" {
 
   key_name = aws_key_pair.this.key_name
 
-  monitoring = true
 
-  metadata_options {
-    http_endpoint = "enabled"
-    http_tokens   = "required"
-  }
+
 
   root_block_device {
     encrypted   = true
