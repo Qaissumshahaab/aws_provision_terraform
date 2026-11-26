@@ -9,7 +9,7 @@ terraform {
   }
 
   backend "s3" {
-    bucket       = "YOUR-EXISTING-S3-STATE-BUCKET"
+    bucket       = "bucket-for-state-locking-92"
     key          = "terraform-aws-project/production/terraform.tfstate"
     region       = "ap-southeast-2"
     encrypt      = true
